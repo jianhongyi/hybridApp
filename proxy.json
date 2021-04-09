@@ -1,0 +1,23 @@
+{
+    "/stu/homewk": {
+        "target": "https://stuapi.diplotalk.unischool.cn/",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/stu/homewk": "/stu/homewk"
+        }
+    },
+    "/parents/api": {
+        "target": "http://hwadminapi.diplotalk.unischool.cn/api/parent-business",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/parents/api": "/parents/api"
+        }
+    },
+    "/headmaster/api": {
+        "target": "http://pre-hwadminapi.diplotalk.unischool.cn/api/headmaster-business",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/headmaster/api": "/headmaster/api"
+        }
+    }
+}

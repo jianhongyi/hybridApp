@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html {
+  min-height: 100%;
+}
+body {
+  width: 100vw;
+  margin: 0 auto;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,sans-serif;
+  overflow-x: hidden;
+}
+body,button,input,select,textarea {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga","kern";
+}
+em {
+  font-style: normal;
+}
+ul ,li{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #666;
+}
+a, button, .btn {
+  outline: none;
+  outline-offset: 0;
+}
+a:focus, button:focus, .btn:focus, a:active, button:active, .btn:active, a.active, button.active, .btn.active,input,input:focus {
+  outline: none;
+  outline-offset: 0;
+}
+.pull-left, .fl{
+  float: left;
+}
+.pull-right, .fr{
+  float: right;
+}
+input::-webkit-input-placeholder{
+  color: #999;
+  font-size: 14px;
+}
+input::-moz-placeholder{
+  color: #999;
+  font-size: 14px;
+}
+input:-moz-placeholder{
+  color: #999;
+  font-size: 14px;
+}
+input:-ms-input-placeholder{
+  color: #999;
+  font-size: 14px;
+}
+
+input:focus::-webkit-input-placeholder{
+  color: transparent;
+}
+input:focus::-moz-placeholder{
+  color: transparent;
+}
+input:focus:-moz-placeholder{
+  color: transparent;
+}
+input:focus:-ms-input-placeholder{
+  color: transparent;
+}
+select {
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+}
+.clearfix {
+  overflow: hidden;
+  _zoom:1;
+}
+.pull-left {
+  float: left;
+}
+.pull-rigth {
+  float: right;
+}
